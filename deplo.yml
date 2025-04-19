@@ -37,7 +37,7 @@ metadata:
   name: mysvc1
   namespace: dev-env
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
     app: nginx
   ports:
