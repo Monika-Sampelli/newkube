@@ -8,7 +8,7 @@ metadata:
 spec:
   containers:
     - name: nginx
-      image: nginx:latest
+      image: shammu101/dm
       env:
         - name: DATABASE_URL
           valueFrom:
